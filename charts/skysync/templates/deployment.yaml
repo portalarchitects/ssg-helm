@@ -30,7 +30,7 @@ spec:
             - -n{{ .Release.Namespace }}
       containers:
         - name: skysync
-          image: index.docker.io/portalarchitects/skysync:4.16.0.2119
+          image: index.docker.io/portalarchitects/skysync:4.16.1.2137
           imagePullPolicy: {{ .Values.imagePullPolicy }}
           ports:
             - containerPort: 9090
